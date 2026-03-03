@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Phase 2</title>
+</head>
+
+<body>
+
+<!-- CONTAINER -->
+<div>
+
+    <header>
+        <h1>Admission Process</h1>
+    </header>
+
+    <!-- TABLE -->
+    <section>
+        <h2>Student Table</h2>
+
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Age</th>
+            </tr>
+
+            <tr>
+                <td>Minal</td>
+                <td>BCA</td>
+                <td>20</td>
+            </tr>
+
+            <tr>
+                <td>Prachi</td>
+                <td>MCA</td>
+                <td>21</td>
+            </tr>
+
+            <tr>
+                <td>Geeta</td>
+                <td>BCA</td>
+                <td>22</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- FORM WITH VALIDATION -->
+    <section>
+        <h2>Registration Form</h2>
+
+        <form>
+
+             Full Name:
+            <input type="text" required>
+            <br><br>
+
+            Email:
+            <input type="email" required>
+            <br><br>
+
+            Password:
+            <input type="password" minlength="4" required>
+            <br><br>
+
+            Age:
+            <input type="number" min="18" max="25" required>
+            <br><br>
+
+            Gender:
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <br><br>
+
+            Course:
+            <select required>
+                <option value="">Select</option>
+                <option>MCA</option>
+                <option>BCA</option>
+            </select>
+            <br><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </section>
+
+    <!-- MEDIA ELEMENTS -->
+    <section>
+        <h2>Media Elements</h2>
+
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio><br><br>
+
+        <h3>Video</h3>
+        <video width="320" height="240" controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+
+    </section>
+
+    <!-- IFRAME -->
+    <section>
+        <h2>Iframe </h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3822.320230186143!2d74.24324467514866!3d16.66085128410768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0ff838098a00f%3A0x45158109d8104ae1!2sC9%20Production%20House!5e0!3m2!1sen!2sin!4v1772520496763!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+
+    </section>
+
+</div>
+
+</body>
+</html>
