@@ -1,134 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- SEO Meta Tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Arihant Clothing Store - Explore the latest fashion for men and women. Quality outfits at affordable prices.">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Arihant Clothing Store - Explore the latest fashion for men and women. Quality outfits at affordable prices.">
     <meta name="keywords" content="Clothing Store, Fashion, Men Wear, Women Wear,Online Shop">
     <meta name="author" content="Minal">
 
-    <title>Arihant Clothing Store</title>
-    <link rel="stylesheet" href="style.css">
+<title>Arihant Clothing Store</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <!-- Header Section -->
-    <header role="banner">
-        <h1>Arihant Clothing Store</h1>
+<header role="banner">
+<h1>Arihant Clothing Store</h1>
 
-        <!-- Navigation -->
-        <nav role="navigation" aria-label="Main Navigation">
-            <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#features">Collections</a></li>
-                <li><a href="#faq">Offers</a></li>
-                <li><a href="#contact">Order</a></li>
-            </ul>
-        </nav>
-    </header>
+<nav role="navigation" aria-label="Main Navigation">
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#collection">Collections</a></li>
+<li><a href="#offers">Offers</a></li>
+<li><a href="#order">Order</a></li>
+</ul>
+</nav>
+</header>
 
-    <!-- Main Content -->
-    <main id="main-content">
 
-        <!-- About Section -->
-        <section id="about">
-            <article>
-                <h2>About Arihant</h2>
-                <p>
-                    Arihant is your one-stop destination for stylish and affordable clothing.
-                    We provide the latest fashion trends for men, women, and kids.
-                </p>
+<!-- SLIDER -->
+<section class="slider">
 
-                <!-- Figure Example -->
-                <figure>
-                    <img src="https://i0.wp.com/textilelearner.net/wp-content/uploads/2023/03/fashion-on-peoples-health.jpg?fit=601%2C400&ssl=1"
-                         alt="Display of trendy clothing collection in store"
-                         width="400">
-                    <figcaption>Figure 1: Latest Summer Collection 2026.</figcaption>
-                </figure>
+<img id="slideImage" src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b">
 
-            </article>
-        </section>
-
-        <!-- Features Section -->
-        <section id="features">
-            <h2>Our Collections</h2>
-            <ul>
-                <li>Men's Casual & Formal Wear</li>
-                <li>Women's Ethnic & Western Wear</li>
-                <li>Kids Fashion Collection</li>
-                <li>Seasonal Discounts & Offers</li>
-                <li>Premium Quality Fabrics</li>
-            </ul>
-       
-         </section>
+<div class="sliderText">
+<h2>Fashion Sale 2026</h2>
+<p>Trendy clothes for everyone</p>
+<button onclick="showOffer()">See Offer</button>
+</div>
 
 </section>
 
-        <!-- FAQ Section using Details & Summary -->
-        <section id="faq">
-            <h2>Special Offers & Information</h2>
 
-            <details>
-                <summary>Do you provide home delivery?</summary>
-                <p>
-                    Yes, we provide home delivery across Maharashtra within 3-5 business days.
-                </p>
-            </details>
+<main class="container">
 
-            <details>
-                <summary>What payment methods are accepted?</summary>
-                <p>
-                    We accept UPI, Debit/Credit Cards, and Cash on Delivery.
-                </p>
-            </details>
+<div class="content">
 
-            <details>
-                <summary>Is there any return policy?</summary>
-                <p>
-                    Yes, products can be returned within 7 days if unused and in original condition.
-                </p>
-            </details>
+<section id="about">
+<article>
 
-        </section>
+<h2>About Our Store</h2>
 
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Place Your Order</h2>
+<p>
+Arihant Clothing Store offers stylish outfits for men,
+women and kids with premium quality fabrics and modern designs.
+</p>
 
-            <form aria-label="Order Form">
-                <fieldset>
-                    <legend>Customer Details</legend>
+<figure>
 
-                    <label for="name">Full Name:</label><br>
-                    <input type="text" id="name" name="name" required><br><br>
+<img src="https://images.unsplash.com/photo-1445205170230-053b83016050" width="100%">
 
-                    <label for="email">Email Address:</label><br>
-                    <input type="email" id="email" name="email" required><br><br>
+<figcaption>Latest fashion collection available now.</figcaption>
 
-                    <label for="message">Product Details:</label><br>
-                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+</figure>
 
-                    <button type="submit">Submit Order</button>
-                </fieldset>
-            </form>
-        </section>
+</article>
+</section>
 
-    </main>
 
-    <!-- Sidebar -->
-    <aside>
-        <h3>Store Timings</h3>
-        <p>Monday to Sunday: 10:00 AM – 9:00 PM</p>
-        <p>Location: Ichalkaranji, Maharashtra</p>
-    </aside>
-    
-    <!-- Footer -->
-    <footer role="contentinfo">
-        <p>&copy; 2026 Arihant Clothing Store. All rights reserved.</p>
-    </footer>
+
+<section id="collection">
+<article>
+
+<h2>Our Collections</h2>
+
+<ul class="collectionList">
+<li>Men Formal Wear</li>
+<li>Women Ethnic Wear</li>
+<li>Kids Fashion</li>
+<li>Festival Collections</li>
+</ul>
+
+</article>
+</section>
+
+
+
+<section id="offers">
+<article>
+
+<h2>Special Offers</h2>
+
+<details>
+<summary>Home Delivery</summary>
+<p>Delivery available across Maharashtra.</p>
+</details>
+
+<details>
+<summary>Payment Methods</summary>
+<p>UPI, Cards and Cash on Delivery.</p>
+</details>
+
+<details>
+<summary>Return Policy</summary>
+<p>Return within 7 days.</p>
+</details>
+
+</article>
+</section>
+
+
+
+<section id="order">
+<article>
+
+<h2>Place Your Order</h2>
+
+<form id="orderForm">
+
+<label> Full Name</label>
+<input type="text" required>
+
+<label>Email</label>
+<input type="email" required>
+
+<label>Product Details</label>
+<textarea required></textarea>
+
+<button type="submit">Submit Order</button>
+
+</form>
+
+</article>
+</section>
+
+</div>
+
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+
+<!-- ASIDE 1 -->
+<aside class="asideBox">
+
+<h3>Store Timings</h3>
+
+<p>Mon - Sun</p>
+<p>10:00 AM – 9:00 PM</p>
+
+</aside>
+
+
+<!-- ASIDE 2 (MODEL IMAGE) -->
+
+<aside class="asideBox modelCard">
+
+<h3>Winter Fashion Sale</h3>
+
+<div class="imageBox">
+
+<img src="https://t3.ftcdn.net/jpg/01/82/74/36/360_F_182743636_57BtwlCOt7WILo7AK9bXG5bJB6mq7tW3.jpg" 
+alt="Fashion Model" width="100%">
+
+<div class="overlay">
+<p>🔥 Flat 30% OFF</p>
+</div>
+
+</div>
+
+<p>New Winter Collection Available</p>
+
+</aside>
+
+
+<!-- ASIDE 3 -->
+<aside class="asideBox">
+
+<h3>Quick Contact</h3>
+
+<p>📍 Ichalkaranji</p>
+<p>📞 9876543210</p>
+
+</aside>
+
+</div>
+
+</main>
+
+
+<footer>
+<p>© 2026 Arihant Clothing Store</p>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
